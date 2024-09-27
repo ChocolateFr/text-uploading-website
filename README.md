@@ -7,7 +7,7 @@ A flask application for uploading text. easy-to-setup and elegant desigen with t
 
 ## setup
 ```
-git clone <https://github.com/ChocolateFr/text-uploading-website.git>
+git clone https://github.com/ChocolateFr/text-uploading-website.git
 cd text-uploading-website
 ```
 then change the `__domain__` key in data.json
