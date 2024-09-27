@@ -13,7 +13,7 @@ cd text-uploading-website
 then change the `__domain__` key in data.json
 
 ### Sample website
-https://textup.chbk.run
+https://text.chbk.run
 
 ### Also learn more about watchdict
 https://pypi.org/project/watchdict/
