@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+<style>
+    @font-face {
+        font-family: cake;
+        src: url(../static/cake.otf);
+    }
+    #sticker{
+        transform: rotate(-30deg);
+        background-color: rgba(250, 250, 86, 0.978);
+        width: 20%;
+        margin-top: -5%;
+    }
+</style>
+<body class="h-[100vh] ml-auto mr-auto bg-gradient-to-r from-sky-700 to-indigo-900 text-white text-center max-w-[720px]  pt-4">
+    <h1 class="font-black text-6xl"><x class="text-purple-300">Upload</x> <br> Your Text</h1>
+    <div id="sticker" class="font-black text-purple-700 rounded-lg ml-auto mr-4">Easly</div>
+    <form class="mt-10" action="/send" method="post">
+        <textarea class="text-black rounded-lg min-h-[50vh] w-[90%] font-300 p-3" type="text" name="text" required="true"></textarea>
+        <br>
+        <button type="submit" class="bg-purple-500 rounded-3xl m-3 p-2 font-black hover:bg-white hover:text-purple-500">Submit</button>
+    </form> 
+    <script src="../static/tailwind.js"></script>
+</body>
+</html>
